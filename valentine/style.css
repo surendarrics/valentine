@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#ffd6e7,#ffc2d1);
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 25px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.cute {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+.buttons {
+  position: relative;
+  height: 70px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+#yesBtn {
+  background: hotpink;
+  color: white;
+  font-weight: bold;
+}
+
+#yesBtn:hover {
+  transform: scale(1.1);
+}
+
+#noBtn {
+   background: #e0e0e0;
+  position: absolute;
+  z-index: 5;
+
+}
+
+.hint {
+  font-size: 12px;
+  margin-top: 20px;
+  opacity: 0.6;
+}
